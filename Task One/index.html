@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Router Configuration - Modern Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<!-- Start dashboard header -->
+<aside class="">
+  <div class="asideIcon">
+    <span class="iconBar"> </span><span class="iconBar"></span>
+    <span class="iconBar"></span>
+  </div>
+  <a href="index.html" class="asideLogo">
+    Router
+  </a>
+
+  <ul class="asideNav">
+    <li class="navItem active">
+      <a href="index.html" class="navLink">
+        <img
+          src="imgs/dashboard-icon.svg"
+          
+        />
+        <p>Dashboard</p>
+      </a>
+    </li>
+    <li class="navItem">
+      <a href="" class="navLink">
+        <img
+          src="imgs/dashboard-icon.svg"
+          
+        />
+        <p>Network</p>
+      </a>
+    </li>
+    <li class="navItem">
+      <a href="" class="navLink">
+        <img
+          src="imgs/dashboard-icon.svg"
+          
+        />
+        <p>Wireless</p>
+      </a>
+    </li>
+    <li class="navItem">
+      <a href="" class="navLink">
+        <img
+          src="imgs/dashboard-icon.svg"
+          
+        />
+        <p>Security</p>
+      </a>
+      <span class="submenuIcon">
+        <img src="imgs/submenu-icon.svg" />
+        </span>
+      <ul class="submenu">
+        <li class="submenuItem">
+          <a href="">submenu item1</a>
+        </li>
+        <li class="submenuItem">
+          <a href="">submenu item2</a>
+          <ul class="Submenu">
+            <li class="submenuItem">
+              <a href="">submenu item2 - 1</a>
+            </li>
+            <li class="submenuItem">
+              <a href="">submenu item2 - 1</a>
+            </li>
+            <li class="submenuItem">
+              <a href="">submenu item2 - 2</a>
+            </li>
+            <li class="submenuItem">
+              <a href="">submenu item2 - 3</a>
+            </li>
+            <li class="submenuItem">
+              <a href="">submenu item2 - 4</a>
+            </li>
+            <li class="submenuItem">
+              <a href="">submenu item2 - 5</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+
+<!-- End dashboard header -->
+<main class="header-main-section">
+
+  <div class="MainContent">
+    <div class="contentConatiner">
+      <div class="mainContentHeader">
+        <h1>Router Configuration</h1>
+        <div class="content">
+            <div class="card">
+                <h2>Network Settings</h2>
+                <form>
+                    <label for="ip">IP Address:</label>
+                    <input type="text" id="ip" name="ip">
+                    
+                    <label for="subnet">Subnet Mask:</label>
+                    <input type="text" id="subnet" name="subnet">
+                    
+                    <label for="gateway">Default Gateway:</label>
+                    <input type="text" id="gateway" name="gateway">
+                    
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
