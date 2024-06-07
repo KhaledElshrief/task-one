@@ -1,4 +1,3 @@
-// JavaScript for Design 1
 
 document.addEventListener("DOMContentLoaded", () => {
     const contactForm = document.getElementById("contact-form");
